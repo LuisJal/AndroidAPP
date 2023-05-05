@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".InicioFragment">
+    <!--android:theme="@style/Theme.AppCompat.NoActionBar"-->
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="250dp"
+        android:layout_marginTop="260dp"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:backgroundTint="#FF0000"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/google2"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="250dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:backgroundTint="#3F51B5"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/facebook"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="250dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:backgroundTint="#00BCD4"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/gorjeo"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFFFFF"
+        android:text="Haz click aqui para Login"
+        android:textIsSelectable="true"
+         />
+
+
+
+</LinearLayout>
